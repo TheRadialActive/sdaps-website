@@ -7,7 +7,8 @@ Some of the users of SDAPS. Feel free to add yourself if you are using it!
 
 ## United States
 
-![](/files/References/nationbuider-logo-black.png)
+
+![](/files/nationbuider-logo-black.png)
 
 When we decided to implement scannable walk and call sheets at NationBuilder,
 we spent a lot of time evaluating different open source solutions.  Initially
@@ -22,7 +23,7 @@ data manually.
 
 ## Germany
 
-![](/files/References/fs-etec.png)
+![](/files/fs-etec.png)
 
 Originally developed at the student body of the faculty of electrical
 engineering, SDAPS is used whenever there is a need to do a survey.
@@ -36,21 +37,21 @@ of what to improve in the coming semester.
 
 ## Netherlands
 
-![](/files/References/uva-logo_en.jpg)
+![](/files/uva-logo_en.jpg)
 
 The Faculty of Science at the [University of Amsterdam](http://www.uva.nl/en/about-the-uva/organisation/faculties/faculties/faculties/content/folder/faculteit-der-natuurwetenschappen-wiskunde-en-informatica/faculty-of-science.html) is (as of 2014)
 using it automatically correct multiple choice examinations.
 
 ## Spain
 
-![](/files/References/logo_uvigo.jpg)
+![](/files/logo_uvigo.jpg)
 
 Research group DE5 - CIFIDEX of the University of Vigo (Spain) uses SDAPS
 for investigation purposes (automatic survey processing).
 
 ## United Kingdom
 
-![](/files/References/gptools.gif)
+![](/files/gptools.gif)
 
 GPTools uses SDAPS to help general practitioners
 [receive patient feedback](https://www.gptools.org/feedback.html) for
