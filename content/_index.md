@@ -5,20 +5,18 @@ layout: single
 ---
 
 SDAPS is an open source (GPLv3, LPPL) optical mark recognition (OMR) program.
-It is written in python and has an integrated workflow with both LibreOffice
-and LaTeX to create questionnaires.
+It is written in python and has an integrated workflow with LaTeX to create questionnaires.
 
 ![SDAPS Overview](/files/sdaps.png")
 
-With SDAPS you create the questionnaire using either [LibreOffice]() or
-[LaTeX](). After this some processing is done to collect the information
-about the survey (questions, and answers) and a [printable PDF]() is created.
+With SDAPS you create the questionnaire using [LaTeX](LaTeX/). After this some processing is done to collect the information
+about the survey (questions, and answers) and a [printable PDF](Documentation/Tutorial/questionnaire.pdf) is created.
 The filled out questionnaires only need to be scanned in
 ([example](Documentation/Tutorial/example.tif)).
 
 SDAPS will do the optical mark recognition and can create a PDF report
 ([example](/example-report.pdf)) or export the data. Optionally it is
-possible to [manually correct the results]() using a graphical user interface.
+possible to [manually correct the results](Documentation/GUI) using a graphical user interface.
 
 Possible use cases for SDAPS include:
 
@@ -38,7 +36,7 @@ For an introduction of how SDAPS is used and what can be done with it you can
 look at the [Tutorial](/getting-started) and [Documentation](/documentation).
 Should you have any further questions about SDAPS you can use the
 [mailing list](/contribute#mailing-list). *If you find any issues, please
-report them in the [Issue Tracker]().*
+report them in the [Issue Tracker](https://github.com/benzea/sdaps/issues).*
 Should you find SDAPS useful and use it for any survey or similar, then please
 consider [contributing](/contribute) to the project. A good first start is to
 subscribe to the [mailing list](/contribute#mailing-list) or to join the [IRC
@@ -51,7 +49,7 @@ channel](/contribute#irc).
 * Optical mark recognition (OMR) from scanned data
 * Imports most formats including PDF and even photographs (version 1.1.7)
 * OpenDocument text (ODT) for creating questionnaires
-* [LaTeX]() class for creating questionnaires
+* [LaTeX](LaTeX/) class for creating questionnaires
 * Supports any paper size
 * Multipage questionnaires, both simplex and duplex printing (up to 9999 pages
 with "code128" and "qr" style)
@@ -62,7 +60,7 @@ with "code128" and "qr" style)
   * The LaTeX class also supports more compact matrix configurations for these.
 * Creation of PDF reports for printout
   * Also supports creating reports of only partial result sets with
-  [arbitrary filters]()
+  [arbitrary filters](Documentation#Filtering)
 * Export of data to CSV files for further analysis (excluding image data)
 * Import of additional results from other sources.
   With this it is for example possible to merge data aquired via a webpage at a later point.
@@ -73,8 +71,8 @@ with "code128" and "qr" style)
 ## Similar Tools
 Some similar free software projects in no specific order:
 
-* [Auto Multiple Choice]() (Perl, supports randomized forms, optimized for
+* [Auto Multiple Choice](http://auto-multiple-choice.net/) (Perl, supports randomized forms, optimized for
 examinations)
-* [G'n'T Eval]() (Ruby, used for evaluations in Heidelberg, Germany)
-* [queXF]() (PHP)
+* [G'n'T Eval](https://github.com/breunigs/gnt-eval) (Ruby, used for evaluations in Heidelberg, Germany)
+* [queXF](http://quexf.sourceforge.net/) (PHP)
 
