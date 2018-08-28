@@ -1,4 +1,4 @@
-baseURL = "https://sdaps.org/"
+baseURL = "http://sdaps.org/"
 languageCode = "en-us"
 title = "SDAPS"
 theme = "hugo-material-docs"
